@@ -20,6 +20,8 @@ __________
 
 
 ## `convertStylesheetToObject(stylesheet)` function
+First, grab the stylesheet that you want to convert into an `object`:
+
 ```js
 // GET ALL STYLESHEETS
 let styleSheetCount = document.styleSheets.length;
@@ -61,6 +63,9 @@ __________
 
 
 ## `getStyleValue(selector, property, styleArray)` function
+
+Then inspect the object:
+
 ```js
 const getStyleValue = (selector, property, styleArray) => {
   
