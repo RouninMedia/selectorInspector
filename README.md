@@ -16,6 +16,9 @@ Query a selector and a property and if the combination exists in your stylesheet
 }
 ```
 
+__________
+
+
 ## `convertStylesheetToObject(stylesheet)` function
 ```js
 // GET ALL STYLESHEETS
@@ -53,6 +56,9 @@ const convertStylesheetToObject = (stylesheet) => {
 
 console.log(convertStylesheetToObject(lastStyleSheet));
 ```
+
+__________
+
 
 ## `getStyleValue(selector, property, styleArray)` function
 ```js
